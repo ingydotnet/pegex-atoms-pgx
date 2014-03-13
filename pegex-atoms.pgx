@@ -1,4 +1,4 @@
-%grammar pegex-atoms-default
+%grammar pegex-atoms
 %version 0.1.0
 
 # Default whitespace rules for that use '~'
