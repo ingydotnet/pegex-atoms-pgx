@@ -2,9 +2,9 @@
 %version 0.1.0
 
 # Default whitespace rules for that use '~'
-ws      :  /<WS>/
-ws1     :  /<ws>*/
-ws2     :  /<ws>+/
+ws      :  / WS /
+ws1     :  / ws* /
+ws2     :  / ws+ /
 
 # Default whitespace rules for that use '-' and '+'
 _       :  /\s*/
